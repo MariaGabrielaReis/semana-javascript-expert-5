@@ -15,7 +15,7 @@ export default class Routes {
 
   async options(request, response) {
     response.writeHead(204);
-    response.end('Hello world');
+    response.end();
   }
 
   async post(request, response) {
